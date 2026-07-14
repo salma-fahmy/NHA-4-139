@@ -1,8 +1,8 @@
-# 🏥 MedCortex — AI-Powered Clinical Knowledge Assistant
+# 🏥 Medora — AI-Powered Clinical Knowledge Assistant
 
 <div align="center">
 
-![MedCortex Banner](https://img.shields.io/badge/MedCortex-AI%20Health%20Assistant-6f4ef2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyek0xMyAxN0gxMXYtNkg3bDUtNSA1IDVoLTR2NnoiLz48L3N2Zz4=)
+![Medora Banner](https://img.shields.io/badge/Medora-AI%20Health%20Assistant-6f4ef2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyek0xMyAxN0gxMXYtNkg3bDUtNSA1IDVoLTR2NnoiLz48L3N2Zz4=)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org)
@@ -23,7 +23,7 @@
 
 ## 📌 Overview
 
-MedCortex is a comprehensive **AI-powered clinical knowledge system** that integrates multiple AI capabilities:
+Medora is a comprehensive **AI-powered clinical knowledge system** that integrates multiple AI capabilities:
 
 - **RAG (Retrieval-Augmented Generation)** for answering clinical questions from NIH MedlinePlus and medical textbooks
 - **Multimodal Vision Analysis** using Gemini 3.5 Flash for interpreting lab reports, prescriptions, and medical documents
@@ -33,7 +33,7 @@ MedCortex is a comprehensive **AI-powered clinical knowledge system** that integ
 
 The system uses a **FastAPI backend** with a **Next.js 14 frontend**, featuring JWT authentication, conversation history, and a polished UI.
 
-> ⚠️ **Disclaimer:** MedCortex is intended for educational and research purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.
+> ⚠️ **Disclaimer:** Medora is intended for educational and research purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.
 
 ---
 
@@ -63,7 +63,7 @@ The system uses a **FastAPI backend** with a **Next.js 14 frontend**, featuring 
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                           MedCortex System                                  │
+│                                Medora System                                │
 ├──────────────────────────────┬──────────────────────────────────────────────┤
 │        DATA PIPELINE         │              INFERENCE PIPELINE              │
 │                              │                                              │
@@ -280,7 +280,7 @@ PROVIDER_VISION = "gemini"
 PROVIDER_EMBEDDING = "huggingface"
 
 # Database
-DATABASE_URL = "sqlite:///./medcortex.db"
+DATABASE_URL = "sqlite:///./medora.db"
 
 # Pinecone
 PINECONE_API_KEY
@@ -412,7 +412,7 @@ Create `.env` file in the backend directory:
 
 ```env
 # Database
-DATABASE_URL=sqlite:///./medcortex.db
+DATABASE_URL=sqlite:///./medora.db
 
 # Pinecone
 PINECONE_API_KEY=your-pinecone-api-key
